@@ -22,7 +22,7 @@
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
-.idea/**/
+.idea/vcs.xlm
 
 # Gradle
 .idea/**/gradle.xml
