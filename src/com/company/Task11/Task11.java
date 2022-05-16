@@ -11,6 +11,7 @@ public class Task11 {
         String line = buff.readLine();
 
         stringChallenge(line);
+        buff.close();
     }
 
     public static void stringChallenge(String str) {
