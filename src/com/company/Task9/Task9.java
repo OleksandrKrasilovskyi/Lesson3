@@ -16,6 +16,6 @@ public class Task9 {
     public static Map<String, Integer> convertListToSortedMap(final List<String> strings) {
 
         return strings.stream()
-                .collect(Collectors.toMap(Function.identity(), String::length, (Previous, New) -> New, TreeMap::new));
+                .collect(Collectors.toMap(Function.identity(), String::length, (previous, neww) -> neww, TreeMap::new));
     }
 }
