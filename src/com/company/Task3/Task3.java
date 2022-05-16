@@ -12,6 +12,7 @@ public class Task3 {
 
         return longList.stream()
                 .mapToLong(Math::toIntExact)
-                .average().orElse(0);
+                .average()
+                .orElse(0);
     }
 }
